@@ -1,0 +1,75 @@
+
+.nav{
+    top: 0%;
+    width: 100%;
+    
+}
+.nav h1{
+    font-size: 90px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-weight: 200;
+    margin: auto;
+}
+
+.container h1{
+    
+    font-weight: 200;
+    font-size: 45px;
+    text-align: center;
+}
+
+.my-5{
+    border-style:groove;
+}
+.projectCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #E9DAC1;
+    height: max-content;
+    border-radius: 160px;
+
+}
+.projects h1{
+    font-weight: 200;
+    text-align: center;
+    
+}
+.footer{
+    margin-bottom: 0;
+    height: 50px;
+    background-color: #D7C0AE;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.footer p{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.footer >p >a {
+    letter-spacing: 0;
+    color:black;
+    font-weight: 300;
+
+}
+
+.scard{
+    display: flex;
+    justify-content: space-evenly;
+    border: 0.1rem solid grey;
+    border-radius: 10px;
+    width:280px;
+    margin-left: 10px;
+    
+
+}
+.scard h4{
+    font-weight: 200;
+    font-size: 26px;
+
+
+}

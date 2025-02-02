@@ -1,0 +1,37 @@
+.card{
+    width: 12rem;
+    height: 14rem;
+    margin: 6px;
+    border-radius: 30px;
+    border: 0.1rem solid grey;
+    background-color: transparent;
+
+
+}
+.section{
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns:auto;
+    gap: var(--size-3);  
+    overflow-x: auto;
+    overflow-y:hidden;
+    overscroll-behavior-inline: contain;
+
+    
+}
+.card-img-top{
+    height:68%;
+    object-fit:contain;
+    
+    
+}
+.card-title{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 100;
+   
+}
+.card:hover{
+    box-shadow: 3px 3px black;
+}
+

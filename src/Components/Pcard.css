@@ -1,0 +1,36 @@
+.outer .card-img-top{
+    height: 150px;
+    
+}
+.outer .card{
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    width: 230px;
+    height: 300px;
+    background-color: #FFF6EA;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.outer .btn{
+    border: 0.1rem solid black;
+    font-weight: 300;
+    left:auto;
+    letter-spacing: 3px;;
+}
+.outer .card-body{
+    display: grid;
+    grid-template-rows: auto;
+}
+.outer p{
+    text-align: center;
+    font-weight: 100;
+}
+.outer .card-title{
+    font-weight: 300;
+    letter-spacing: 1px;;
+}
+.outer .btn:hover{
+    background-color: rgb(73, 73, 73);
+    color:white;
+
+}
