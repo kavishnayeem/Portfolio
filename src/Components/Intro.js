@@ -10,7 +10,7 @@ export default function Intro(){
             <div className="inside container">
                 <h1>KAVISH<br/> NAYEEM </h1>
  
-                    <h4 className="prof">React Developer</h4>
+                    <h4 className="prof">Software Developer & Researcher</h4>
                     <br/><br/>
                 <Link className="Link"  to="/Portfolio"><span className="text">Explore</span></Link>
                 </div>
